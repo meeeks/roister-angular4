@@ -1,0 +1,62 @@
+//for headline in directive list
+
+.headline-level-3 {
+  margin: 20px 0;
+  color: $green-strong;
+}
+
+//for logo directive
+
+.dark-block {
+  background: $black-strong;
+  padding: 25px;
+}
+
+//for glyphs
+
+.temporary-glyphs {
+  li {
+    display: inline-block;
+    margin: 10px;
+  }
+  i {
+    font-size: 26px !important;
+    color: #171717;
+  }
+}
+
+//myCustomScrollbarContainer
+#myCustomScrollbarContainer {
+  width: 120px;
+}
+
+#myCustomScrollbarContainer .scroll-viewport {
+  height: 200px;
+  width: 100px;
+
+}
+
+//counter bulb example
+.temporaty-counter-bulb {
+  margin-top: 20px;
+  i {
+    color: $white-strong;
+  }
+
+}
+
+
+//tooltips
+.margin-padding-null {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+//ui-components list
+.ui-components {
+  background: $black-medium;
+  .md-tab {
+    color: $white-strong;
+  }
+}

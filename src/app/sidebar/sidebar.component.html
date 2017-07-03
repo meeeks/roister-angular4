@@ -1,0 +1,34 @@
+<ul class="navbar-nav">
+  <li class="navbar-nav_item">
+    <a class="roboto-regular-16" routerLink="/dashboard" [routerLinkActive]="['is-active']">
+      <i class="flaticon-squares-1"></i>
+      Dashboard
+    </a>
+  </li>
+  <li class="navbar-nav_item">
+    <a class="roboto-regular-16" routerLink="/networks" [routerLinkActive]="['is-active']">
+      <i class="flaticon-connection"></i>
+      Networks and Sites
+    </a>
+  </li>
+  <li class="navbar-nav_item">
+    <a class="roboto-regular-16" routerLink="/campaigns" [routerLinkActive]="['is-active']">
+      <i class="flaticon-travel"></i>
+      Campaigns
+    </a>
+  </li>
+  <li class="navbar-nav_item navbar-nav_plans">
+    <a class="roboto-regular-16" routerLink="/plans" [routerLinkActive]="['is-active']">
+      <i class="flaticon-dollar-symbol"></i>
+      Plans
+    </a>
+  </li>
+</ul>
+
+<!-- <roi-favorites favorites="index.favorites"></roi-favorites> -->
+<div class="sidebar_conntect-network-site-btn">
+  <button class="btn long-red roboto-regular-14">
+    <i class="flaticon-add sidebar_add-network-site-icon"></i>
+    Connect Network/Site
+  </button>
+</div>

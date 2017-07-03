@@ -1,0 +1,12 @@
+.roi-breadcrumb {
+  color: $grey-type-e;
+  padding: 8px;
+  a {
+    color: $grey-type-e;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $white-strong;
+  }
+}

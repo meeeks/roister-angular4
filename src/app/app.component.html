@@ -1,3 +1,14 @@
-<h1>
-  {{title}}
-</h1>
+<div class="header" fxLayout="row">
+  <app-header></app-header>
+</div>
+<div class="main" fxLayout="row">
+  <div class="sidebar" fxFlex="270px">
+    <app-sidebar></app-sidebar>
+  </div>
+  <div class="content" fxFlex="auto">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+<div class="wrapper-footer" fxLayout="row">
+  <app-footer fxFlex="100"></app-footer>
+</div>

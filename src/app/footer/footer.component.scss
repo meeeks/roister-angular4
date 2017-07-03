@@ -1,0 +1,71 @@
+@import '../../assets/styles/colors.scss';
+
+footer {
+  display: block;
+  padding: 20px;
+  background: $black-strong;
+}
+
+.footer_privacy-policy {
+  color: $grey-type-e;
+  margin-right: 15px;
+}
+
+.footer_menu {
+  padding: 0;
+  display: inline-block;
+  list-style-type: none;
+
+    .footer_menu-item {
+      display: inline;
+    }
+
+  .footer_menu-link {
+      color: $white-strong;
+      text-decoration: none;
+      margin: 0 15px;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+    }
+
+}
+
+.footer_btn-help {
+
+    button {
+      text-transform: capitalize;
+      float: right;
+    }
+
+}
+
+@media (max-width: 959px) {
+  footer {
+    text-align: center;
+
+      .footer-wrap {
+        flex-direction: column-reverse;
+      }
+
+      .footer_menu {
+
+        .footer_menu-item {
+          display: block;
+          margin-bottom: 15px;
+        }
+
+        .footer_menu-link {
+          margin: 0;
+        }
+
+      }
+
+      button {
+        margin-bottom: 15px;
+      }
+
+  }
+}

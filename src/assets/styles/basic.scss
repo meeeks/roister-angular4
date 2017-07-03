@@ -1,0 +1,141 @@
+html {
+  overflow-x: hidden;
+}
+
+* {
+  font-family: 'Roboto-Regular';
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: 0 !important;
+}
+
+*:focus {
+  outline: 0!important;
+}
+
+body {
+  background: $grey-type-a;
+}
+
+app-header {
+  padding: 20px 50px 20px 20px;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.sidebar {
+  padding-left: 20px;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  padding: 0 20px;
+}
+
+.middle-section {
+  flex: 1 0 auto;
+  background: $grey-type-a;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+hr {
+  box-sizing: content-box;
+  width: 100%;
+  outline: none;
+  border: none;
+  height: 1px !important;
+  background: $grey-type-c;
+  margin: 16px 0;
+}
+
+a {
+  color: $blue-strong;
+}
+
+a:hover{
+  color: $blue-medium;
+}
+
+.ui-notification {
+  width: 100% !important;
+}
+
+.color-green {
+  color: $green-strong;
+}
+
+.color-grey {
+  color: $grey-type-c;
+}
+
+.color-red {
+  color: $red-strong;
+}
+
+.browsehappy {
+  background: $red-strong;
+  color: $white-strong;
+  padding: 20px;
+}
+
+md-input-container {
+  margin: 0 !important;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+.md-date-range-picker__calendar__today {
+  background: $orange-strong;
+}
+
+.md-date-range-picker__calendar__grid:hover {
+  background: $blue-strong !important;
+}
+
+.date-picker {
+  color: $white-strong;
+  cursor: pointer;
+  font-size: 12px;
+  text-transform: uppercase;
+  i {
+    font-size: 14px;
+    color: $blue-strong;
+    margin-right: 3px;
+  }
+  &:hover,
+  &.active {
+    i {
+      color: $orange-strong;
+    }
+  }
+}
