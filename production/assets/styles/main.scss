@@ -1,0 +1,18 @@
+body {
+  background: $grey-type-a;
+  margin: 0;
+}
+
+.is-active {
+  color: green;
+}
+
+app-root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+}

@@ -1,0 +1,38 @@
+.counter-bulb_counter-bulb {
+  display: flex;
+  min-width: 16px;
+  height: 16px;
+  background: $red-strong;
+  font-size: 10px;
+  color: $white-strong;
+  line-height: 16px;
+  text-align: center;
+  border-radius: 8px;
+  position: absolute;
+  top:-8px;
+  right: -8px;
+  z-index: 1;
+  font-style: normal;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .3s ease-out;
+
+    &:hover {
+      background: $red-medium;
+    }
+
+}
+
+.counter-bulb_counter-bulb.hide-counter-bulb {
+  display: none;
+}
+
+.counter-bulb_counter-bulb.long-counter-bulb {
+  width: 24px;
+  right: -12px;
+}
+
+.counter-bulb_counter-bulb.star-counter-bulb {
+  font-size: 12px;
+  padding-top: 0.3em;
+}

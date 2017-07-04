@@ -1,0 +1,143 @@
+//TYPOGRAPHY
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+//regular
+
+.roboto-regular-10 {
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.roboto-regular-12 {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.roboto-regular-14 {
+  font-size: 14px !important;
+  font-weight: normal;
+}
+
+.roboto-regular-16 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.roboto-regular-18 {
+  font-size: 18px;
+}
+
+.roboto-regular-24 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.roboto-regular-26 {
+  font-size: 26px;
+  font-weight: normal;
+}
+
+.roboto-regular-italic-14 {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.roboto-regular-italic-12 {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.roboto-regular-italic-18 {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+//medium
+
+.roboto-medium-12 {
+  font-family: 'Roboto-Medium';
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.roboto-medium-14 {
+  font-family: 'Roboto-Medium';
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.roboto-medium-16 {
+  font-family: 'Roboto-Medium';
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.roboto-medium-18 {
+  font-family: 'Roboto-Medium';
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.roboto-medium-20 {
+  font-family: 'Roboto-Medium';
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.roboto-medium-40 {
+  font-family: 'Roboto-Medium';
+  font-weight: 500;
+  font-size: 40px;
+}
+
+//bold
+
+.roboto-bold-16 {
+  font-family: 'Roboto-Bold';
+  font-size: 16px;
+}
+
+.roboto-bold-36 {
+  font-family: 'Roboto-Bold';
+  font-size: 36px;
+}
+
+.bradley-bold-14 {
+  font-family: 'BradleyHandITCTT-Bold';
+  font-size: 14px;
+  color: $green-strong;
+}
+
+.accent-txt {
+  color: $orange-strong;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.color-grey {
+  color: $grey-type-c;
+}

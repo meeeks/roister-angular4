@@ -16,10 +16,10 @@ export class DashboardComponent {
 
   constructor(
     private profileService: ProfileService) {
-
+      this.getPostsInfo();
     }
 
-  getPosts() {
+  getPostsInfo() {
     this.profileService.getPosts((err, data) => {
       if (err) {
         console.log(err);

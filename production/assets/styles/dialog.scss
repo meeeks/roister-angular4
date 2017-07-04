@@ -1,0 +1,61 @@
+//global dialog style rules
+md-dialog.md-default-theme,
+md-dialog {
+  background: transparent;
+}
+
+md-dialog {
+  opacity: 1;
+}
+
+.dialog-padding {
+  padding: 20px;
+}
+
+.dialog-header {
+  padding-bottom: 20px;
+}
+
+.dialog-header_name {
+  text-transform: uppercase;
+}
+
+.roi-dialog {
+  color: $white-strong;
+  min-width: 460px;
+  background: linear-gradient(to bottom right, $black-medium, $grey-type-j);
+  md-toolbar {
+    background: none;
+  }
+
+  .md-toolbar-tools {
+    height: auto;
+    max-height: none;
+    h2 {
+      text-transform: uppercase;
+    }
+  }
+
+  .close-dialog {
+    cursor: pointer;
+    font-size: 14px;
+    color: $white-strong;
+
+  }
+}
+
+.roi-dialog_password-show-hide-switcher {
+  font-style: normal;
+  color: $grey-type-c;
+}
+
+@media (max-width: 599px) {
+  .roi-dialog {
+    min-width: 280px;
+    max-width: 280px;
+  }
+  md-dialog {
+    min-width: 280px;
+    max-width: 280px;
+  }
+}

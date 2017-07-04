@@ -1,0 +1,41 @@
+.roi-tabs {
+  md-ink-bar {
+    display: none;
+  }
+
+  md-tabs-wrapper {
+    height: 34px;
+  }
+
+  md-tab-item:first-child {
+    border-radius: 20px 0 0 20px;
+  }
+
+  md-tab-item:nth-last-child(2) {
+    border-radius: 0 20px 20px 0;
+  }
+
+  .md-tab {
+    padding: 4px 25px;
+    font-size: 10px;
+    border: 1px solid $grey-type-b;
+    margin-right: -1px;
+    color: $white-strong;
+  }
+
+  md-tab-item {
+    background-color: $grey-type-i;
+  }
+
+  md-tab-item.md-active {
+    background-color: $orange-strong;
+    color: $black-strong;
+  }
+
+  md-tabs-canvas {
+    height: 34px;
+    md-pagination-wrapper {
+      height: auto;
+    }
+  }
+}

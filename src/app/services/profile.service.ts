@@ -12,7 +12,7 @@ export class ProfileService {
   }
 
   getPosts(cb) {
-    return this.http.get(this.configService.configuration.urls.baseUrl + 'v1/users/profile', null)
+    return this.http.get(this.configService.configuration.urls.baseUrl + 'v1/billing/plans', null)
       .subscribe(
         (response) => cb(null, response),
         (error) => cb(error)

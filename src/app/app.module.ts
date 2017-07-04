@@ -15,6 +15,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { NetworksComponent } from './networks/networks.component';
 import { CampaignsComponent } from './campaigns/campaigns.component';
 import { PlansComponent } from './plans/plans.component';
+import { RegistrationComponent } from './registration/registration.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { PlansComponent } from './plans/plans.component';
     DashboardComponent,
     NetworksComponent,
     CampaignsComponent,
-    PlansComponent
+    PlansComponent,
+    RegistrationComponent
   ],
   imports: [
     BrowserModule,
@@ -55,6 +57,10 @@ import { PlansComponent } from './plans/plans.component';
       {
         path: 'plans',
         component: PlansComponent
+      },
+      {
+        path: 'registration',
+        component: RegistrationComponent
       },
       {
         path: '**',

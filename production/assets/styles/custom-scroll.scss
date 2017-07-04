@@ -1,0 +1,9 @@
+.scroll-bar {
+  background: $black-strong;
+  width: 5px;
+  .scroll-thumb {
+    width: 5px;
+    left: 0;
+    background: $grey-type-f;
+  }
+}
